@@ -1,7 +1,17 @@
 # icml2026-rebuttal-submission2384
 # Supplemental Figures for Submission 2384 Rebuttal
 
-We provide the high-resolution figures referenced in our author response below to address the reviewers' questions comprehensively.
+We provide the high-resolution figures and tables referenced in our author response below to address the reviewers' questions comprehensively.
+
+### Table R1: Empirical Comparison with Traditional Baselines
+*Referenced in response to Reviewer H8X7 (Q1). Traditional methods degrade severely in high-dimensional, multi-treatment regimes.*
+
+| Method | Medium-Scale ($K=4$) | Large-Scale ($K=20$) |
+| :--- | :--- | :--- |
+| KNN Matching | 2.612 | 16.844 |
+| IPW (Multinomial) | 1.012 | 2.478 |
+| Base Model (Unadjusted) | 0.796 | 1.029 |
+| **Ours (Aggregation, $\alpha^*$)** | **0.722** | **0.989** |
 
 ### Figure R6: Empirical Proof of Convergence (Gradient Descent vs. Grid Search)
 *Referenced in response to Reviewer H8X7 (Q2).*
